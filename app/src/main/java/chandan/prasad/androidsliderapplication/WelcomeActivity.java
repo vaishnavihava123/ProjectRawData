@@ -3,6 +3,7 @@ package chandan.prasad.androidsliderapplication;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.drawable.AnimationDrawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
@@ -16,6 +17,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 public class WelcomeActivity extends AppCompatActivity {
@@ -59,6 +61,7 @@ public class WelcomeActivity extends AppCompatActivity {
                 R.layout.welcome_slide2,
                 R.layout.welcome_slide3,
                 R.layout.welcome_slide4};
+
 
         // adding bottom dots
         addBottomDots(0);

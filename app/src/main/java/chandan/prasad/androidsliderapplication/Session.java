@@ -6,6 +6,7 @@ import android.content.SharedPreferences;
 public class Session {
     SharedPreferences pref;
     SharedPreferences.Editor editor;
+    //point to the current context.its only description
     Context _context;
 
     // shared pref mode

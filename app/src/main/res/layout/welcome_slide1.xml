@@ -2,7 +2,10 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_screen1">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/bg_screen2"
+    android:padding="40dp"
+    tools:showIn="@layout/activity_welcome">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -12,9 +15,9 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="@dimen/img_width_height"
-            android:layout_height="@dimen/img_width_height"
-            android:src="@drawable/ic_food" />
+            android:layout_width="match_parent"
+            android:layout_height="282dp"
+            android:src="@drawable/ekdamfinal" />
 
         <TextView
             android:layout_width="wrap_content"
